@@ -32,7 +32,7 @@ bool cellPadUtilIsConnected(uint8_t pad)
 	}
 	return isConnected(pad);
 }
-
+//inject sprx bip bop
 int modres;
 sys_prx_id_t LoadSPRX(const char* path)
 {
@@ -48,7 +48,7 @@ void UnloadSPRX(sys_prx_id_t prxID)
 	sys_prx_unload_module(prxID, 0, nullptr);
 }
 sys_prx_id_t prxID;
-
+//tiny tiny hehe
 bool timer = true;
 void forcequitgame(uint64_t gamecrashexit)
 {
