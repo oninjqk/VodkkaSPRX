@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="utils\stdafx.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\printf.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="prx/prx.cpp">
+      <Filter>prx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="rage\nativeCaller.h">
+      <Filter>rage</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\Natives.h">
+      <Filter>rage</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\stdafx.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\types.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\enum.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="prx\prx.hpp">
+      <Filter>prx</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\mods.h">
+      <Filter>mods</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\freeze\freeze.h">
+      <Filter>mods\freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\protection\protection.h">
+      <Filter>mods\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\teleport\teleport.h">
+      <Filter>mods\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\weather\weather.h">
+      <Filter>mods\weather</Filter>
+    </ClInclude>
+    <ClInclude Include="stats\stats.h">
+      <Filter>mods\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\variables.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\vehicle.h">
+      <Filter>mods\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="tests.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="menu">
+      <UniqueIdentifier>{d7711124-b47a-4f22-8805-7512ad081978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mods">
+      <UniqueIdentifier>{b5789459-3d2b-47ce-a57a-7bdd8e60b684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rage">
+      <UniqueIdentifier>{9edc352f-de24-4b20-8333-5c78def62dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{f8134bae-782c-4e5d-93f3-d1e9c1298d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prx">
+      <UniqueIdentifier>{d08b8c12-ec5b-4c53-bec9-bc89ccf8a37c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mods\freeze">
+      <UniqueIdentifier>{c69da41b-ce08-4d43-80eb-da9923ea4739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mods\teleport">
+      <UniqueIdentifier>{bebe6bb0-024a-4823-9d42-df359d616709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mods\weather">
+      <UniqueIdentifier>{5c4d2232-cab1-42dd-b4d3-534b152a4a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mods\protection">
+      <UniqueIdentifier>{5d55283c-584a-4310-85c8-d390bce030e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mods\stats">
+      <UniqueIdentifier>{4810fb65-4c1b-41d4-879f-bd5630070535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mods\vehicle">
+      <UniqueIdentifier>{25cebb7b-25a8-49cb-b891-b93b0f2ee723}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
